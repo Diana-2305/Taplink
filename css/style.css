@@ -1,0 +1,129 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #F5F5F5; /*фоновый цвет*/
+  padding: 15px;/*отступы на странице*/
+  font-family: 'Inter', sans-serif; /*размер шрифта*/
+}
+.page-wrapper{
+  max-width: 390px; /*максимальная ширина шаблона*/
+  margin: auto; /*расположение на страницу*/
+  overflow: hidden;
+  background: #FAF9F9;
+  box-shadow: 0px 0px 32px 0px rgba(129, 129, 129, 0.25);
+  border-radius: 20px;
+}
+.container{
+  max-width: 328px;
+  margin: auto;
+  background: #FAF9F9;
+  box-shadow: 0px 0px 32px 0px rgba(129, 129, 129, 0.25);
+  border-radius: 20px;
+}
+header{
+  color: #FFF;
+  padding: 25px 85px 179px;
+  border-radius: 0px 0px 90px 90px;
+  background: linear-gradient(
+    0deg, 
+    rgba(0, 0, 0, 0.20) 0%, 
+    rgba(0, 0, 0, 0.20) 
+  ),
+    url('../css/img/Header-bg.png') 
+  no-repeat center/cover;
+}
+.card{
+  background: #FFFAFA;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding-bottom: 15px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.info{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;  
+  margin-top: 6px;
+}
+.hello{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;  
+}
+.hello-text{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+}
+.user-avatar{
+  object-fit: cover;
+  margin-top: -40px;
+  border-radius: 50%;
+  border: 4px solid #FEFBFB
+}
+.user{
+  text-align: center;
+  margin-top: -60px;
+  border-radius: 20px;
+  background: #FFFAFA;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding-bottom: 15px;
+}
+.user-discription{
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #696868;
+}
+.user-name{
+  margin-top: 7px;
+  margin-bottom: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+}
+.buttons{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 350px;
+  margin: auto;
+  gap: 10px;
+  margin-bottom: 5px;
+ 
+}
+.button{
+  margin-top: 10px;
+  background-color:#000;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 10px;
+  text-decoration: none;
+  color:#FFF
+}
+.button.VK{
+  background: #4C75A3;
+ 
+}
+.button.tg{
+  background: #229ED9;
+}
+.button.whatsapp{
+  background: #25D366;
+ 
+}
+.button.отзывы{
+  background: #5A51C1
+}
+.button.группа{
+  background: #5A51C1
+}
+
